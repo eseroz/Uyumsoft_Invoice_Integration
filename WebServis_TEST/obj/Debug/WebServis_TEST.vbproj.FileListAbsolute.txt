@@ -106,3 +106,4 @@ D:\WebServis_TEST\WebServis_TEST\bin\de\DevExpress.Office.v17.1.Core.resources.d
 D:\WebServis_TEST\WebServis_TEST\bin\es\DevExpress.Office.v17.1.Core.resources.dll
 D:\WebServis_TEST\WebServis_TEST\bin\ja\DevExpress.Office.v17.1.Core.resources.dll
 D:\WebServis_TEST\WebServis_TEST\bin\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\WebServis_TEST\WebServis_TEST\obj\Debug\WebServis_TEST.vbproj.CoreCompileInputs.cache

@@ -289,7 +289,7 @@ Public Class _Default
             Dim _gideceğiIlçeSemtMahalle As String = ""
             Dim _gideceğiŞehir As String = "MOSCOW"
             Dim _gideceğiCaddeSokakBulvar As String = "ULITSYA TIMURA FRUNZE"
-            dd
+
             _totalLineExtentionAmount = _totalLineExtentionAmount + _tutar
             _totalTaxInclusiveAmount = _totalLineExtentionAmount + _tutar
             _totalTaxExculisiveAmount = _totalLineExtentionAmount + _tutar
