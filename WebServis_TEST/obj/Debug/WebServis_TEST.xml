@@ -1,0 +1,5906 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebServis_TEST
+</name>
+</assembly>
+<members>
+<member name="T:WebServis_TEST.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:WebServis_TEST.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:WebServis_TEST.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:WebServis_TEST.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:WebServis_TEST.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:WebServis_TEST.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DateResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DateResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.Response">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.Response.IsSucceded">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.Response.Message">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FileUploadRequest">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FileUploadRequest.FileData">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FileUploadRequest.FileName">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EArchiveCancelInvoiceContext">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveCancelInvoiceContext.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveCancelInvoiceContext.CancelDate">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BinaryRequestData">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryRequestData.Hash">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryRequestData.Data">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineResponseInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LineResponseInfo.LineNumber">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LineResponseInfo.Description">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentResponseInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseInfo.LineResponses">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseInfo.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseInfo.ResponseStatus">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseInfo.Reason">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentResponseStatus">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseStatus.Approved">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseStatus.Declined">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseStatus.Return">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedQueryContext">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedQueryContext.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedQueryContext.PageSize">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceListQueryModel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.ExecutionStartDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.ExecutionEndDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.CreateStartDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.CreateEndDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.Status">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.InvoiceIds">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListQueryModel.InvoiceNumbers">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceStatus">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.NotPrepared">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.NotSend">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Draft">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Canceled">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Queued">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Processing">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.SentToGib">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Approved">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.WaitingForAprovement">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Declined">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Return">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.EArchivedCanceled">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceStatus.Error">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OutboxInvoiceListQueryModel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListQueryModel.Scenario">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceScenarioType">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioType.eInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioType.eArchive">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InboxInvoiceListQueryModel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InboxInvoiceListQueryModel.OnlyNewestInvoices">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceQueryModel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceQueryModel.ExecutionStartDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceQueryModel.ExecutionEndDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceQueryModel.InvoiceIds">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceQueryModel.InvoiceNumbers">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InboxInvoiceQueryModel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InboxInvoiceQueryModel.SetTaken">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InboxInvoiceQueryModel.OnlyNewestInvoices">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ClonedInvoiceInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ClonedInvoiceInfo.SourceInvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ClonedInvoiceInfo.ClonedInvoiceId">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LogRecordItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.Creator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.CreateDateUtc">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.RemoteIpAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.LocalIpAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.MachineName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.Type">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LogRecordItem.Message">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceLogItem">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.LocalDocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.Logs">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.Status">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.StatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.Message">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogInfo.EnvelopeStatusCode">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VerificationResult">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.VerificationResult.Data">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.VerificationResult.SigningDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.VerificationResult.IsVerified">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ViewResult">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ViewResult.Html">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ViewResult.Verification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ViewResult.IsUsingDefaultXslt">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceIdentity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceIdentity.Id">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceIdentity.Number">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceIdentity.InvoiceScenario">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceExportGtbInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceExportGtbInformation.DocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceExportGtbInformation.RefNo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceExportGtbInformation.GcbRegistrationNo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceExportGtbInformation.RealExportDate">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem.PageSize">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem.TotalCount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfOutboxInvoiceListItem.TotalPages">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OutboxInvoiceListItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListItem.Scenario">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListItem.ScenarioCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListItem.LocalDocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListItem.ExtraInformation">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceListItemBase">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.DocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Type">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.TypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.TargetTcknVkn">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.TargetTitle">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.EnvelopeIdentifier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Status">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.StatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.EnvelopeStatus">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.EnvelopeStatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Message">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.CreateDateUtc">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.ExecutionDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.PayableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.TaxTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.TaxExclusiveAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.DocumentCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.ExchangeRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat1">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat8">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat18">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat0TaxableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat1TaxableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat8TaxableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.Vat18TaxableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.OrderDocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceListItemBase.IsArchived">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceTypes">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceTypes.BaseInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceTypes.ComercialInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceTypes.InvoiceWithPassanger">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceTypes.Export">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceTypes.eArchive">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EnvelopeStatus">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.NoEnvelope">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.Preparing">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopIsQueued">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopIsProcessing">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.FileIsNotZip">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.InvalidEnvelopIdLength">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopCouldNotCopiedFromArchive">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotOpenZip">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.ZipIsEmpty">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.FileIsNotXml">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopeIdAndXmlNameMustBeSame">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotParseDocument">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopeIdNotFound">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopeIdAndZipNameMustBeSame">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.InvalidVersion">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.SchematronCheckFailed">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.XmlSchemaCheckFailed">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotTakeTcknVknForSigner">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotSaveSigniture">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopeIdIsAlreadyUsed">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotCheckPermission">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.DoesNotHaveSenderUnitPermission">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.DoesNotHavePostBoxPermission">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotCheckSignPermission">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.SignerHasNoPermission">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.IllegalSign">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotCheckAddress">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.AddressNotFound">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.DoesNotHaveEntegratorApplication">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotPrepareSystemResponse">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.SystemError">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.EnvelopedProcessSuccessfully">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CouldNotSendDocumentToTheAddress">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.DocumentSendingFailedWillNotRetry">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.TargetDoesNotSendSystemResponse">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.TargetSendFailedSystemResponse">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.EnvelopeStatus.CompletedSuccessfully">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InboxInvoiceListItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InboxInvoiceListItem.IsNew">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentResponseStatusInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseStatusInfo.Status">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseStatusInfo.StatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseStatusInfo.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseStatusInfo.Message">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.Waiting">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.Queued">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.Processing">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.SentToGib">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.Success">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.DocumentResponseEntityStatus.Error">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceStatusInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusInfo.Status">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusInfo.StatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusInfo.InvoiceId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusInfo.Message">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceData">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceData.Data">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceData.LocalDocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceData.ExtraInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceData.InvoiceId">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData.PageSize">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData.TotalCount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceData.TotalPages">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem.PageSize">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem.TotalCount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInboxInvoiceListItem.TotalPages">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MailAttachmentInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailAttachmentInformation.Xml">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailAttachmentInformation.Pdf">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailAttachmentInformation.Html">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MailingInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.Subject">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.Attachment">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.EnableNotification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.To">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.BodyXsltIdentifier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MailingInformation.EmailAccountIdentifier">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EArchiveWithHoldingInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveWithHoldingInformation.Code">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveWithHoldingInformation.Rate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveWithHoldingInformation.Total">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShipmentCarier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentCarier.SenderTcknVkn">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentCarier.SenderName">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShipmentInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentInformation.SendDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentInformation.Carier">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InternetSalesInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InternetSalesInformation.WebAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InternetSalesInformation.PaymentMidierName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InternetSalesInformation.PaymentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InternetSalesInformation.PaymentDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InternetSalesInformation.ShipmentInfo">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NewGenerationPaymentRecorderInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NewGenerationPaymentRecorderInformation.PaperNumber">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NewGenerationPaymentRecorderInformation.PaperDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NewGenerationPaymentRecorderInformation.SerialNumber">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NewGenerationPaymentRecorderInformation.ZNumber">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EArchiveInvoiceInformation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveInvoiceInformation.NewGenerationPamentRecorderInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveInvoiceInformation.InternetSalesInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveInvoiceInformation.WithHoldings">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.EArchiveInvoiceInformation.DeliveryType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceDeliveryType">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceDeliveryType.Paper">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceDeliveryType.Electronic">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomerInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomerInfo.VknTckn">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomerInfo.Alias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomerInfo.Title">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MonetaryTotalType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.LineExtensionAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.TaxExclusiveAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.TaxInclusiveAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.AllowanceTotalAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.ChargeTotalAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.PayableRoundingAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MonetaryTotalType.PayableAmount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineExtensionAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AmountType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AmountType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AmountType.currencyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AmountType.currencyCodeListVersionID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AmountType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LowerTenderAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentationFeeAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeclaredStatisticsValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeclaredCarriageValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DebitLineAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyCapacityAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeclaredCustomsValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InsurancePremiumAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InsuranceValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HigherTenderAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FreeOnBoardValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InventoryValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FaceValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedOverallContractAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LiabilityAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FeeAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AnnualAverageAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AmountType2">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AverageSubsequentContractAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AverageAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AllowanceTotalAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdvertisementAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorrectionAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CreditLineAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorrectionUnitAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChargeTotalAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BaseAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BalanceAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CallExtensionAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CallBaseAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalBalanceAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalDebitAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalCreditAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ThresholdAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxExclusiveAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxEnergyOnAccountAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxableAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxInclusiveAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarketValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PayableAlternativeAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransactionCurrencyTaxAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalPaymentAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalInvoiceAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalTaxAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalTaskAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxEnergyBalanceAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PayableAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeclaredForCarriageValueAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumAdvertisementAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PayableRoundingAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumPaidAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaidAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SettlementDiscountAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoundingAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxEnergyAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequiredFeeAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PerUnitAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PenaltyAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrepaidAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorporateStockAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExchangeRateType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExchangeRateType.SourceCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExchangeRateType.TargetCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExchangeRateType.CalculationRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExchangeRateType.Date">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SourceCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CodeType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CodeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listAgencyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listAgencyName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listVersionID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.languageID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listURI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.listSchemeURI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CodeType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentStatusReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DirectionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FormatCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DisplayTacticTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DispositionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FinancingInstrumentCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ForecastPurposeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FeatureTacticTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpenseCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpressionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FullnessIndicationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FreightRateClassCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FundingProgramCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GenderCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ForecastTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExemptionReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EncodingCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EnvironmentalEmissionTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EmergencyProceduresCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DutyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExceptionStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExecutionRequirementCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExceptionResolutionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EvaluationCriterionTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EvidenceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardingMethodTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CalculationExpressionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CalculationMethodCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ApplicationStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AvailabilityStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardingCriterionTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CapabilityTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CertificateTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChannelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CharacterSetCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CardChipCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CardTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CargoTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AccountFormatCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AccountTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AccountingCostCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TenderEnvelopeTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdjustmentReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdmissionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AllowanceChargeReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActivityTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AddressFormatCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AddressTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorrectionTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CountrySubentityCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CreditNoteTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractingSystemCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CoordinateSystemCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorporateRegistrationTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeclarationTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DescriptionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DespatchAdviceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CurrentChargeTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomsStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DataSourceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CompanyLiquidationStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ComparisonDataCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ComparisonDataSourceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CollaborationPriorityCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CommodityCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CompanyLegalFormCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConditionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConstitutionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumerIncentiveTacticTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumersEnergyLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubstitutionStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubscriberTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TargetCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SupplyChainActivityTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StatusReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubmissionMethodCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubcontractingConditionsCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TariffClassCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsServiceCallCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsSupplyTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsServiceCategoryCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TariffCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxExemptionReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoleCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RevisionStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SealStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SealIssuerTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResolutionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResidenceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RetailEventStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResponseCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SecurityClassificationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SizeTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StatementTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecificationTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ServiceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ServiceInformationPreferenceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShortageActionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShippingPriorityLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TenderResultCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UrgencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UNDGCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidationResultCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UtilityStatementTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportServiceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportModeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportationStatusTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WeekDayCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OneTimeChargeTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InhalationToxicityZoneCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WorkPhaseCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WeightingAlgorithmCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimingComplaintCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimeFrequencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TradeItemPackingLabelingTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TrackingDeviceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TendererRequirementTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TenderTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ThresholdValueComparisonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TendererRoleCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TradeServiceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportExecutionStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportEventTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportMeansTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportHandlingUnitTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportAuthorizationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransitDirectionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportEquipmentTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportEmergencyCardCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestedInvoiceCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterConstantCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MedicalFirstAidGuideCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MimeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterReadingTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LossRiskResponsibilityCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LongitudeDirectionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MathematicOperatorCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MandateTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MiscellaneousEventTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OwnerTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackageLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackLevelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NatureCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NameCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderResponseCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NotificationTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IdentificationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HeatingTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IndustryClassificationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ImportanceCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HandlingCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GuaranteeTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HazardousRegulationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HazardousCategoryCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InspectionMethodCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LifeCycleStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LocationTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LocaleCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemClassificationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatitudeDirectionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestMeterReadingMethodCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackagingTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcurementTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcurementSubTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PromotionalEventTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProfileStatusCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrivacyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PricingCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcessReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcedureCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProviderTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RejectActionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceEventCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReminderTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RejectReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.QualityControlCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PurposeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceiptAdviceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.QuantityDiscrepancyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentChannelCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentAlternativeCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentFrequencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentCurrencyCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ParentDocumentTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackingCriteriaCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartPresentationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentMeansCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousMeterReadingMethodCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousCancellationReasonCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceEvaluationCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PerformanceMetricTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentPurposeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreferenceCriterionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PositionCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceTypeCodeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CalculationRateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NumericType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NumericType.format">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.NumericType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HumidityPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TargetServicePercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AirFlowPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartecipationPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SettlementDiscountPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TierRatePercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PercentType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PenaltySurchargePercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ParticipationPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReliabilityPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProgressPercentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NumericType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumCopiesNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WeightNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SequenceNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderIntervalDaysNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MultiplierFactorNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumNumberNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReminderSequenceNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackSizeNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderQuantityIncrementNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumPaymentInstructionsNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FrozenPeriodDaysNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CalculationSequenceNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BudgetYearNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumNumberNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineNumberNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResidentOccupantsNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineCountNumericType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TargetCurrencyBaseRateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SourceCurrencyBaseRateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RateType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AmountRateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderableUnitFactorRateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DateType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DateType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DateType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpiryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FirstShipmentAvailibilityDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InstallmentDueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedDespatchDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EarliestPickupDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EndDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedDeliveryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestSecurityClearanceDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestMeterReadingDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LastRevisionDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestDeliveryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestPickupDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualDeliveryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualDespatchDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualPickupDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubmissionDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BirthDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CallDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ComparisonForecastIssueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BestBeforeDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ApprovalDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AvailabilityDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RevisionDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SourceForecastIssueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StartDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResponseDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestedPublicationDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequiredDeliveryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResolutionDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubmissionDueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EffectiveDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidationDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GuaranteedDespatchDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxPointDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidityStartDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestProposalAcceptanceDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegisteredDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationExpirationDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PlannedDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousMeterReadingDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceivedDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestedDeliveryDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NominationDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ManufactureDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestedDespatchDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentDueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaidDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OccurrenceDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IssueDateType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentTermsType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.Note">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.PenaltySurchargePercent">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.Amount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.PenaltyAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.PaymentDueDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentTermsType.SettlementPeriod">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NoteType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TextType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TextType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TextType.languageID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TextType.languageLocaleID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TextType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StreetNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RetailEventNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoamingPartnerNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ServiceNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BrandNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ModelNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MiddleNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NameType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OtherNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HolderNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CitySubdivisionNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CityNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FamilyNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FirstNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FileNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VesselNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CategoryNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TechnicalNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BlockNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BuildingNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdditionalStreetNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AliasNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionAgencyNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidateToolVersionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WarrantyInformationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueQualifierType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WeightType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WorkPhaseType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.XPathType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TestMethodType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TradingRestrictionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InhouseMailType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InstructionNoteType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InformationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HaulageInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HeatingTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.JustificationDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.JustificationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.JobTitleType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoicingPartyReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FeeDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FloorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExemptionReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpressionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HandlingInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HashAlgorithmMethodType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FundingProgramType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ForwarderServiceInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FrequencyType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.KeywordType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterNumberType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterConstantType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarkCareType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumValueType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumValueType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MonetaryScopeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumImprovementBidType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterReadingCommentsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeterReadingTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelefaxType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LimitationDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestMeterReadingMethodType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LegalReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LowTendersDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarkAttentionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LossRiskType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LocationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LoginType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConditionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumersEnergyLevelType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConditionsDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CompanyLegalFormType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConditionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractSubdivisionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionLevelType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CarrierServiceInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CertificateTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CanonicalizationMethodType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CancellationNoteType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CandidateStatementType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CodeValueType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CommentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CharacteristicsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChangeConditionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChannelType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentHashType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentStatusReasonDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DistrictType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ElectronicMailType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExclusionReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ElectronicDeviceDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DutyType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomerReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomsClearanceServiceInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CurrentChargeTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorrectionTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TitleType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DemurrageInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DepartmentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeliveryInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DamageRemarksType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DataSendingCapabilityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoomType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SealingPartyTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoleDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResidenceTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResolutionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShipsRequirementsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureMethodType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShippingMarksType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ServiceNumberCalledType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ServiceTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationNationalityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PurposeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RankType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RemarksType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReplenishmentOwnerDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RejectionNoteType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegulatoryDomainType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RejectReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecialInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelephoneType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ListValueType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsServiceCategoryType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsSupplyTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimezoneOffsetType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimingComplaintType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimeAmountType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TextType2">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TierRangeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StatusReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubscriberTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecialTransportRequirementsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecialServiceInstructionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecialTermsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TechnicalCommitteeDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TelecommunicationsServiceCallType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxExemptionReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SummaryDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TariffDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OutstandingReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackingMaterialType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OtherInstructionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderableUnitType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrganizationDepartmentType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PayerReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PayPerViewType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PasswordType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportationServiceDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportUserSpecialTermsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidateProcessType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidateToolType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MovieTitleType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OneTimeChargeTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OptionsDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NameSuffixType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NegotiationDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentNoteType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceRevisionFormulaDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceChangeReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PostboxType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousMeterReadingMethodType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcessDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProcessReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrizeDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrintQualifierType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriorityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportServiceProviderRemarksType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PersonalSituationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportServiceProviderSpecialTermsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentOrderReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportUserRemarksType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PlotIdentificationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PostalZoneType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PlacardNotationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PhoneNumberType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PlacardEndorsementType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CalculationExpressionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AccountingCostType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AcceptedVariantsDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdditionalConditionsType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActivityTypeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CountrySubentityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdditionalInformationType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BirthplaceNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BackorderReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BuyerReferenceType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BuildingNumberType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AllowanceChargeReasonType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AgencyNameType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardingCriterionDescriptionType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ApprovalStatusType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PeriodType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.StartDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.StartTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.EndDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.EndTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.DurationMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PeriodType.Description">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StartTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TimeType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualPickupTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualDespatchTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EarliestPickupTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CallTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualDeliveryTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SourceForecastIssueTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidationTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EffectiveTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RevisionTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResponseTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ManufactureTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OccurrenceTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaidTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegisteredTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestedDespatchTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ResolutionTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequiredDeliveryTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NominationTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpiryTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GuaranteedDespatchTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedDespatchTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EndTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedDeliveryTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ComparisonForecastIssueTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestPickupTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LastRevisionTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestDeliveryTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IssueTimeType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DurationMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeasureType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeasureType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MeasureType.unitCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MeasureType.unitCodeListVersionID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MeasureType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ComparedValueMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BaseUnitMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChargeableWeightMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GrossVolumeMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GrossWeightMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GrossTonnageMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreEventNotificationDurationMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AltitudeMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TareWeightMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NetTonnageMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NetVolumeMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NetNetWeightMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SourceValueMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LongitudeDegreesMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NetWeightMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PostEventNotificationDurationMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LeadTimeMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LoadingLengthMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatitudeDegreesMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatitudeMinutesMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MeasureType2">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LongitudeMinutesMeasureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentMeansType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.PaymentMeansCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.PaymentDueDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.PaymentChannelCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.InstructionNote">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.PayerFinancialAccount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PaymentMeansType.PayeeFinancialAccount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FinancialAccountType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FinancialAccountType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FinancialAccountType.CurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FinancialAccountType.PaymentNote">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FinancialAccountType.FinancialInstitutionBranch">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IdentifierType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IdentifierType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeAgencyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeAgencyName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeVersionID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeDataURI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.schemeURI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IdentifierType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferencedSignatureIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionAgencyURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionVersionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionAgencyIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExchangeMarketIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EndpointIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EconomicOperatorRegistryURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HazardClassIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FreightForwarderAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtendedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractedCarrierAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContractFolderIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionReportIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomizationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomerAssignedAccountIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsignorAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.JourneyIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IssuerIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LoadingSequenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LicensePlateIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ImmobilizationCertificateIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IdentificationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IssueNumberIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InstructionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InformationURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AttributeIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AircraftIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AgencyIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdditionalAccountIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AwardingCriterionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RadioCallSignIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AuctionURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AccountIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CompanyIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChipApplicationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CarrierAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BarcodeSymbologyIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsigneeAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BusinessIdentityEvidenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BusinessClassificationEvidenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BrokerAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CV2IDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BuyerProfileURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BuyerEventIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LocationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SuccessiveSequenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecificationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SubscriberIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SecurityIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SellerEventIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SalesOrderLineIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SchemeURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SerialIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShippingOrderIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LanguageIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SequenceNumberIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SequenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValidatorIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UpperOrangeHazardPlacardIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VersionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VariantIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportationServiceDetailsURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UUIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.URIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VesselIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TrackingIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TraceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportExecutionPlanReferenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TrainIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.WebsiteURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TenderEnvelopeIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SupplierAssignedAccountIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentMeansIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentTermsDetailsURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PaymentIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ParentDocumentLineReferenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ParentDocumentVersionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousVersionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrimaryAccountNumberIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousJobIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PerformingCarrierAssignedIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrepaidPaymentReferenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ParentDocumentIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarkingIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NationalityIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LowerOrangeHazardPlacardIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LogoReferenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LotNumberIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OriginalContractingSystemIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OriginalJobIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OpenTenderIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NetworkIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OntologyURIType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProductTraceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RegistrationNationalityIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferencedConsignmentIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RailCarIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RevisedForecastLineIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SalesOrderIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequiredCustomsIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReleaseIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequestForQuotationLineIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProfileIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ProfileExecutionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UBLVersionIDType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BranchType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BranchType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BranchType.FinancialInstitution">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FinancialInstitutionType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FinancialInstitutionType.Name">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomsDeclarationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomsDeclarationType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomsDeclarationType.IssuerParty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.WebsiteURI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.EndpointID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.IndustryClassificationCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PartyIdentification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PartyName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PostalAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PhysicalLocation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PartyTaxScheme">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.PartyLegalEntity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.Contact">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.Person">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyType.AgentParty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyIdentificationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyIdentificationType.ID">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyNameType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyNameType.Name">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AddressType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.Postbox">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.Room">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.StreetName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.BlockName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.BuildingName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.BuildingNumber">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.CitySubdivisionName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.CityName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.PostalZone">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.Region">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.District">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AddressType.Country">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CountryType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CountryType.IdentificationCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CountryType.Name">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LocationType1">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LocationType1.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LocationType1.Address">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyTaxSchemeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyTaxSchemeType.RegistrationName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyTaxSchemeType.CompanyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyTaxSchemeType.TaxScheme">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxSchemeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSchemeType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSchemeType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSchemeType.TaxTypeCode">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartyLegalEntityType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.RegistrationName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.CompanyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.RegistrationDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.SoleProprietorshipIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.CorporateStockAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.FullyPaidSharesIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.CorporateRegistrationScheme">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PartyLegalEntityType.HeadOfficeParty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SoleProprietorshipIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IndicatorType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.IndicatorType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ThirdPartyPayerIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxIncludedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomsImportClassifiedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DangerousGoodsApprovedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FollowupContractIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CompletionIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsolidatableIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContainerizedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GovernmentAgreementConstraintIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HazardousRiskIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HumanFoodApprovedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GeneralCargoIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FreeOfChargeIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FrozenDocumentIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UnknownPriceIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AnimalFoodApprovedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AnimalFoodIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AuctionConstraintIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VariantConstraintIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CandidateReductionConstraintIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CatalogueIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChargeIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BindingOnBuyerIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BackOrderAllowedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BalanceBroughtForwardIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BasedOnConsensusIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RefrigeratedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RefrigerationOnIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RequiredCurriculaIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PublishAwardIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrepaidIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PricingUpdateRequestIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PrizeIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SplitConsignmentIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StatusAvailableIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxEvidenceIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SpecialSecurityIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReturnabilityIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReturnableMaterialIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LivestockIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarkAttentionIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MarkCareIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LegalStatusIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HumanFoodIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.IndicationIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemUpdateRequestIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PartialDeliveryIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PowerIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreCarriageIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OtherConditionsIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OnCarriageIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OptionalLineItemIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderableIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FullyPaidSharesIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ToOrderIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BulkCargoIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AcceptedIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AdValoremIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CopyIndicatorType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CorporateRegistrationSchemeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CorporateRegistrationSchemeType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CorporateRegistrationSchemeType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CorporateRegistrationSchemeType.CorporateRegistrationTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CorporateRegistrationSchemeType.JurisdictionRegionAddress">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContactType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ContactType.Telephone">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ContactType.Telefax">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ContactType.ElectronicMail">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ContactType.Note">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ContactType.OtherCommunication">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CommunicationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CommunicationType.ChannelCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CommunicationType.Channel">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CommunicationType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PersonType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.FirstName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.FamilyName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.Title">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.MiddleName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.NameSuffix">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.NationalityID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.FinancialAccount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PersonType.IdentityDocumentReference">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.IssueDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.DocumentTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.DocumentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.DocumentDescription">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.Attachment">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.ValidityPeriod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentReferenceType.IssuerParty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AttachmentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AttachmentType.EmbeddedDocumentBinaryObject">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AttachmentType.ExternalReference">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EmbeddedDocumentBinaryObjectType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BinaryObjectType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BinaryObjectType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.format">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.mimeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.encodingCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.characterSetCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.uri">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.filename">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BinaryObjectType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PictureType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SoundType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GraphicType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VideoType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExternalReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExternalReferenceType.URI">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.TransportEmergencyCardCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.PackingCriteriaCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.HazardousRegulationCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.InhalationToxicityZoneCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.TransportAuthorizationCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.MaximumTemperature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.HazardousGoodsTransitType.MinimumTemperature">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TemperatureType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TemperatureType.AttributeID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TemperatureType.Measure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TemperatureType.Description">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportHandlingUnitType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TransportHandlingUnitTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.HandlingCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.HandlingInstructions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.HazardousRiskIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TotalGoodsItemQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TotalPackageQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.DamageRemarks">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TraceID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.ActualPackage">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TransportEquipment">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.TransportMeans">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.HazardousGoodsTransit">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.MeasurementDimension">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.MinimumTemperature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.MaximumTemperature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.FloorSpaceMeasurementDimension">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.PalletSpaceMeasurementDimension">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.ShipmentDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportHandlingUnitType.CustomsDeclaration">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalGoodsItemQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.QuantityType1">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.QuantityType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.QuantityType.unitCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.QuantityType.unitCodeListID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.QuantityType.unitCodeListAgencyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.QuantityType.unitCodeListAgencyName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.QuantityType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SharesNumberQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReturnableQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RejectedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShortQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceivedElectronicTenderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TargetInventoryQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PreviousMeterQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PerformanceValueQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PassengerQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceivedTenderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceivedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReceivedForeignTenderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EmployeeQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DifferenceTemperatureReductionQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedOverallContractQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EstimatedConsumedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CrewQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeliveredQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChildConsignmentQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpectedOperatorQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumOperatorQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumBackorderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumOrderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GasPressureQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExpectedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LatestMeterQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoicedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CreditedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MultipleOrderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DebitedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumOrderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OutstandingQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OversupplyQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.NormalTemperatureReductionQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OperatingYearsQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumBackorderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionEnergyQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumerUnitQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaximumVariantQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsumptionWaterQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ChargeableQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BatchQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsignmentQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomsTariffQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BasicConsumedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BaseQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MinimumInventoryQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ContentUnitQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BackorderQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ActualTemperatureReductionQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.VarianceQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalDeliveredQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalMeteredQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ThresholdQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TimeDeltaDaysQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalConsumedQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalPackageQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalPackagesQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TotalTransportHandlingUnitQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ValueQuantityType">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.QuantityType2">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PackageType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.Quantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.ReturnableMaterialIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.PackageLevelCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.PackagingTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.PackingMaterial">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.ContainedPackage">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.GoodsItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PackageType.MeasurementDimension">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GoodsItemType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.SequenceNumberID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Description">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.HazardousRiskIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.DeclaredCustomsValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.DeclaredForCarriageValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.DeclaredStatisticsValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.FreeOnBoardValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.InsuranceValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.GrossWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.NetWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.NetNetWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ChargeableWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.GrossVolumeMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.NetVolumeMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Quantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.PreferenceCriterionCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.RequiredCustomsID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.CustomsStatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.CustomsTariffQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.CustomsImportClassifiedIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ChargeableQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ReturnableQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.TraceID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Item">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.GoodsItemContainer">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.FreightAllowanceCharge">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.InvoiceLine">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Temperature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ContainedGoodsItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.OriginAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Delivery">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Pickup">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.Despatch">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.MeasurementDimension">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ContainingPackage">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.ShipmentDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.MinimumTemperature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemType.MaximumTemperature">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.Description">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.Keyword">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.BrandName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.ModelName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.BuyersItemIdentification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.SellersItemIdentification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.ManufacturersItemIdentification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.AdditionalItemIdentification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.CommodityClassification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemType.ItemInstance">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemIdentificationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemIdentificationType.ID">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CommodityClassificationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CommodityClassificationType.ItemClassificationCode">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemInstanceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.ProductTraceID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.ManufactureDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.ManufactureTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.BestBeforeDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.RegistrationID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.SerialID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.AdditionalItemProperty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemInstanceType.LotIdentification">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemPropertyType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.NameCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.TestMethod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.Value">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ValueQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ValueQualifier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ImportanceCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ListValue">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.UsabilityPeriod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ItemPropertyGroup">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.RangeDimension">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyType.ItemPropertyRange">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemPropertyGroupType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyGroupType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyGroupType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyGroupType.ImportanceCode">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DimensionType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DimensionType.AttributeID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DimensionType.Measure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DimensionType.Description">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DimensionType.MinimumMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DimensionType.MaximumMeasure">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemPropertyRangeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyRangeType.MinimumValue">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ItemPropertyRangeType.MaximumValue">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LotIdentificationType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LotIdentificationType.LotNumberID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LotIdentificationType.ExpiryDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LotIdentificationType.AdditionalItemProperty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.GoodsItemContainerType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemContainerType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemContainerType.Quantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.GoodsItemContainerType.TransportEquipment">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportEquipmentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportEquipmentType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportEquipmentType.TransportEquipmentTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportEquipmentType.Description">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AllowanceChargeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.ChargeIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.AllowanceChargeReason">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.MultiplierFactorNumeric">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.SequenceNumeric">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.Amount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.BaseAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AllowanceChargeType.PerUnitAmount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceLineType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.Note">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.InvoicedQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.LineExtensionAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.OrderLineReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.DespatchLineReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.ReceiptLineReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.Delivery">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.AllowanceCharge">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.TaxTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.WithholdingTaxTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.Item">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.Price">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceLineType.SubInvoiceLine">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderLineReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderLineReferenceType.LineID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderLineReferenceType.SalesOrderLineID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderLineReferenceType.UUID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderLineReferenceType.LineStatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderLineReferenceType.OrderReference">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OrderReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderReferenceType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderReferenceType.SalesOrderID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderReferenceType.IssueDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderReferenceType.OrderTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OrderReferenceType.DocumentReference">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.LineReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LineReferenceType.LineID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LineReferenceType.LineStatusCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.LineReferenceType.DocumentReference">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeliveryType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.Quantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.ActualDeliveryDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.ActualDeliveryTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.LatestDeliveryDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.LatestDeliveryTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.TrackingID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.DeliveryAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.AlternativeDeliveryLocation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.EstimatedDeliveryPeriod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.CarrierParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.DeliveryParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.Despatch">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.DeliveryTerms">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryType.Shipment">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DespatchType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.ActualDespatchDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.ActualDespatchTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.Instructions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.DespatchAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.DespatchParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.Contact">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DespatchType.EstimatedDespatchPeriod">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DeliveryTermsType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryTermsType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryTermsType.SpecialTerms">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DeliveryTermsType.Amount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShipmentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.HandlingCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.HandlingInstructions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.GrossWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.NetWeightMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.GrossVolumeMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.NetVolumeMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.TotalGoodsItemQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.TotalTransportHandlingUnitQuantity">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.InsuranceValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.DeclaredCustomsValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.DeclaredForCarriageValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.DeclaredStatisticsValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.FreeOnBoardValueAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.SpecialInstructions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.Consignment">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.GoodsItem">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.ShipmentStage">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.Delivery">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.TransportHandlingUnit">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.ReturnAddress">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.FirstArrivalPortLocation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentType.LastExitPortLocation">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ConsignmentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ConsignmentType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ConsignmentType.TotalInvoiceAmount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ShipmentStageType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.TransportModeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.TransportMeansTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.TransitDirectionCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.Instructions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.TransitPeriod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.TransportMeans">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ShipmentStageType.DriverPerson">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransportMeansType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.JourneyID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.RegistrationNationalityID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.RegistrationNationality">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.DirectionCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.TransportMeansTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.TradeServiceCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.Stowage">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.AirTransport">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.RoadTransport">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.RailTransport">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.MaritimeTransport">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.OwnerParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransportMeansType.MeasurementDimension">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StowageType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.StowageType.LocationID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.StowageType.Location">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.StowageType.MeasurementDimension">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AirTransportType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.AirTransportType.AircraftID">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RoadTransportType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RoadTransportType.LicensePlateID">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RailTransportType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RailTransportType.TrainID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RailTransportType.RailCarID">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.MaritimeTransportType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.VesselID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.VesselName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.RadioCallSignID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.ShipsRequirements">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.GrossTonnageMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.NetTonnageMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.RegistryCertificateDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.MaritimeTransportType.RegistryPortLocation">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxTotalType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxTotalType.TaxAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxTotalType.TaxSubtotal">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxSubtotalType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.TaxableAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.TaxAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.CalculationSequenceNumeric">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.TransactionCurrencyTaxAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.Percent">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.BaseUnitMeasure">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.PerUnitAmount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxSubtotalType.TaxCategory">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TaxCategoryType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxCategoryType.Name">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxCategoryType.TaxExemptionReasonCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxCategoryType.TaxExemptionReason">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TaxCategoryType.TaxScheme">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PriceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PriceType.PriceAmount">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PickupType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.ActualPickupDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.ActualPickupTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.EarliestPickupDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.EarliestPickupTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.LatestPickupDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.LatestPickupTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.PickupLocation">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PickupType.PickupParty">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CustomerPartyType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CustomerPartyType.Party">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SupplierPartyType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SupplierPartyType.Party">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureType1">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType1.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType1.SignatoryParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType1.DigitalSignatureAttachment">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BillingReferenceLineType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceLineType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceLineType.Amount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceLineType.AllowanceCharge">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.BillingReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.InvoiceDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.SelfBilledInvoiceDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.CreditNoteDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.SelfBilledCreditNoteDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.DebitNoteDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.ReminderDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.AdditionalDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.BillingReferenceType.BillingReferenceLine">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ObjectType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ObjectType.Any">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ObjectType.Id">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ObjectType.MimeType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ObjectType.Encoding">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RSAKeyValueType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RSAKeyValueType.Modulus">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RSAKeyValueType.Exponent">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DSAKeyValueType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.P">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.Q">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.G">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.Y">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.J">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.Seed">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DSAKeyValueType.PgenCounter">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.KeyValueType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyValueType.Item">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyValueType.Text">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.RetrievalMethodType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RetrievalMethodType.Transforms">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RetrievalMethodType.URI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.RetrievalMethodType.Type">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.TransformType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransformType.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransformType.Text">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.TransformType.Algorithm">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SPKIDataType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SPKIDataType.SPKISexp">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SPKIDataType.Any">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PGPDataType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PGPDataType.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PGPDataType.ItemsElementName">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemsChoiceType1">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType1.Item">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType1.PGPKeyID">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType1.PGPKeyPacket">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.X509IssuerSerialType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.X509IssuerSerialType.X509IssuerName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.X509IssuerSerialType.X509SerialNumber">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.X509DataType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.X509DataType.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.X509DataType.ItemsElementName">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemsChoiceType">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.Item">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.X509CRL">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.X509Certificate">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.X509IssuerSerial">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.X509SKI">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType.X509SubjectName">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.KeyInfoType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyInfoType.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyInfoType.ItemsElementName">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyInfoType.Text">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.KeyInfoType.Id">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ItemsChoiceType2">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.Item">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.KeyName">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.KeyValue">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.MgmtData">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.PGPData">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.RetrievalMethod">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.SPKIData">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.ItemsChoiceType2.X509Data">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureValueType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureValueType.Id">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureValueType.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DigestMethodType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DigestMethodType.Any">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DigestMethodType.Algorithm">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ReferenceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.Transforms">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.DigestMethod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.DigestValue">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.Id">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.URI">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ReferenceType.Type">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureMethodType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureMethodType.HMACOutputLength">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureMethodType.Any">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureMethodType.Algorithm">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CanonicalizationMethodType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CanonicalizationMethodType.Any">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CanonicalizationMethodType.Algorithm">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignedInfoType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignedInfoType.CanonicalizationMethod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignedInfoType.SignatureMethod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignedInfoType.Reference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignedInfoType.Id">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SignatureType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType.SignedInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType.SignatureValue">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType.KeyInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType.Object">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SignatureType.Id">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ExtensionContentType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ExtensionContentType.Signature">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UBLExtensionType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.UBLExtensionType.ExtensionContent">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceType">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.UBLExtensions">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.UBLVersionID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.CustomizationID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.ProfileID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.ID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.CopyIndicator">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.UUID">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.IssueDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.IssueTime">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.InvoiceTypeCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.Note">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.DocumentCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.TaxCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PricingCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentAlternativeCurrencyCode">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.AccountingCost">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.LineCountNumeric">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.InvoicePeriod">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.OrderReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.BillingReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.DespatchDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.ReceiptDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.OriginatorDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.ContractDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.AdditionalDocumentReference">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.Signature">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.AccountingSupplierParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.AccountingCustomerParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.BuyerCustomerParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.SellerSupplierParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.TaxRepresentativeParty">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.Delivery">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentMeans">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentTerms">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.AllowanceCharge">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.TaxExchangeRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PricingExchangeRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentExchangeRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.PaymentAlternativeExchangeRate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.TaxTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.WithholdingTaxTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.LegalMonetaryTotal">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.InvoiceLine">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceType.schemaLocation">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.Invoice">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.TargetCustomer">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.EArchiveInvoiceInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.Scenario">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.Notification">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.LocalDocumentId">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceInfo.ExtraInformation">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceScenarioChoosen">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioChoosen.Automated">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioChoosen.eInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioChoosen.eArchive">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.InvoiceScenarioChoosen.MusteArchive">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo.PageSize">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo.TotalCount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfInvoiceInfo.TotalPages">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SystemUserWithAlias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserWithAlias.Definition">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserWithAlias.ReceiverboxAliases">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserWithAlias.SenderboxAliases">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SystemUserDefinition">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserDefinition.CreateDateUtc">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserDefinition.Identifier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserDefinition.Title">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserDefinition.Type">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserDefinition.SystemCreateDate">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EntityBaseInt">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EntityBase">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SystemUserAlias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserAlias.Alias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserAlias.Type">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserAlias.SystemCreateDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUserAlias.Enabled">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EntityCreateHistory">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.EntityUpdatedHistory">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SystemUser">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.Identifier">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.PostboxAlias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.SenderboxAlias">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.Title">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.Type">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.SystemCreateDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.FirstCreateDate">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUser.Enabled">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser.Items">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser.PageIndex">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser.PageSize">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser.TotalCount">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.PagedResponseOfSystemUser.TotalPages">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.ByteArrayResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.ByteArrayResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.CloneInvoiceServiceResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.CloneInvoiceServiceResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusWithLogResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceViewResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceViewResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceIdentitiesResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceIdentitiesResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceGtbInfoResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceGtbInfoResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.OutboxInvoiceListResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.OutboxInvoiceListResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.DocumentResponseStatusResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.DocumentResponseStatusResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceStatusResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceStatusResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceDataResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceDataResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoicesDataResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoicesDataResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoiceResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoiceResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InboxInvoiceListResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InboxInvoiceListResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.InvoicesResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.InvoicesResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.StringElementResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.StringElementResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.UserAliassesResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.UserAliassesResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.SystemUsersResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.SystemUsersResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.FlagResponse">
+<remarks/>
+</member>
+<member name="P:WebServis_TEST.Uyumsoft.FlagResponse.Value">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.XsltViewType">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.Invoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.AproveInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.CancelInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.eArchiveDefaultInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.eArchiveInternetSalesInvoice">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.EmailBody">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.Ticket">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.XsltViewType.PassengerList">
+<remarks/>
+</member>
+<member name="T:WebServis_TEST.Uyumsoft.AliasType">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.AliasType.Receiverbox">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST.Uyumsoft.AliasType.Senderbox">
+<remarks/>
+</member>
+<member name="F:WebServis_TEST._Default._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebServis_TEST._Default._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebServis_TEST._Default._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebServis_TEST._Default._grdLog">
+<summary>
+grdLog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebServis_TEST.FaturaDurum._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
