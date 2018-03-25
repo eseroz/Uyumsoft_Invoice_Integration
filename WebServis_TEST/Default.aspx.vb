@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
 Imports System.Xml
+Imports System.Xml.Serialization
 Imports System.Xml.XPath
 Imports System.Xml.Xsl
 Imports WebServis_TEST.Uyumsoft
@@ -53,6 +54,15 @@ Public Class _Default
         Dim client = CreateClient()
 
         Dim _invoice1 As InvoiceInfo = FaturaOlustur(_fatura)
+
+
+
+        Dim sw1 = New StringWriter()
+        Dim xs1 As New XmlSerializer(GetType(InvoiceInfo))
+        xs1.Serialize(New XmlTextWriter(sw1), _invoice1)
+        Dim xml As String = sw1.ToString()
+
+
         Dim _yanıt = Await client.SendInvoiceAsync(New InvoiceInfo() {_invoice1})
 
         Response.Clear()
@@ -545,8 +555,8 @@ Public Class _Default
                 .urunsayisi = Trim(drFatura("urunsayisi").ToString()),
                 .doviz = Trim(drFatura("doviz").ToString()),
                 .durum = Trim(drFatura("durum").ToString()),
-                .teslimsarti = Trim(drFatura("teslimsarti").ToString()),
-                .tasimasekli = Trim(drFatura("tasimasekli").ToString())
+                .teslimsarti = "",
+                .tasimasekli = ""
             }
 
 
@@ -637,8 +647,8 @@ Public Class _Default
                             .adresb = Trim(drCariHesapMuhBlg("adresb").ToString()),
                             .vergida = Trim(drCariHesapMuhBlg("vergida").ToString()),
                             .vergino = Trim(drCariHesapMuhBlg("vergino").ToString()),
-                            .telfax = Trim(drCariHesapMuhBlg("telfax").ToString()),
-                            .email = Trim(drCariHesapMuhBlg("email").ToString()),
+                            .telfax = "",
+                            .email = "",
                             .kredi = Trim(drCariHesapMuhBlg("kredi").ToString()),
                             .borc = Trim(drCariHesapMuhBlg("borc").ToString()),
                             .alacak = Trim(drCariHesapMuhBlg("alacak").ToString()),
